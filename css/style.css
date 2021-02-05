@@ -35,6 +35,22 @@ figcaption{
   font-size: 10px;
 }
 
+ul{
+  padding:0;
+  margin:25px 16px;
+}
+ /* TABLE */
+table{
+  width: 100%;
+}
+thead{
+  background-color: #20a9e5;
+  color: white;
+}
+.odd-row{
+  background-color: #b1e5f2;
+}
+
 /* TEXT COLORS */
 .gray-text{
   color:gray;
