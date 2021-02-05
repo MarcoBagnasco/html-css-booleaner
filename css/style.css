@@ -17,10 +17,17 @@ header{
   width:80%;
   margin: auto;
 }
-
 h1{
   font-size: 40px;
   margin-bottom: 0;
+}
+
+/* IMAGES SECT.*/
+figure{
+  margin-left:0;
+}
+figcaption{
+  font-size: 10px;
 }
 
 /* TEXT COLORS */
