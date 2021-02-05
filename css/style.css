@@ -1,3 +1,4 @@
+/* HEADER */
 header{
   background-color: #4ea0ff;
   background-image: url("../img/pattern.png");
@@ -9,4 +10,13 @@ header{
   width:80%;
   margin: auto;
   padding: 40px 0px 5px;
+}
+
+.container{
+  width:80%;
+  margin: auto;
+}
+
+h1{
+  font-size: 40px;
 }
