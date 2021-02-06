@@ -1,0 +1,120 @@
+/* GENERAL */
+*{
+  margin: 0;
+}
+body{
+  background-image: url("https://lh3.googleusercontent.com/proxy/Oglwqf0vNelW9irvsthqk-qjOCD0VStjN45TiIgUmYWJj8xT6yxAWUvE8RRHYwoJwhS0wuSri5gtp4grP5ESgCxc85CiAkQUFcEV7KBv7a9jguEKuBoQGbj26o4hNvfa6tpNCGQEmv8NNo1hjkuXkg");
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 21px;
+  background-attachment: fixed;
+}
+.container{
+  width: 70%;
+  margin:auto;
+}
+
+/* TEXT DEC.*/
+.highlighted{
+  text-decoration: underline wavy #FF7F50;
+}
+.gray-text{
+  display: inline-block;
+}
+.blue-text{
+  color:#FF7F50;
+}
+
+/* HEADER */
+#header-container{
+  background-color: #FF7F50;
+}
+#logo{
+  width:500px;
+}
+
+/* MAIN */
+main{
+  padding:25px;
+  background-color: #FFF0F5;
+}
+
+/* TITLE SECT. */
+h1{
+  font-family: 'Fredoka One', cursive;
+  font-size: 48px;
+}
+
+/* IMAGES SECT.*/
+figure{
+  text-align: center;
+  margin:35px;
+}
+img{
+  display:block;
+  margin:10px auto;
+}
+figcaption{
+  font-style: italic;
+  font-size: 16px;
+}
+
+/* CENTRAL SECT. */
+ul{
+  width: 700px;
+  margin: 20px auto;
+  list-style-type: square;
+}
+li{
+   padding:5px;
+}
+
+/* TABLE */
+table{
+   margin:30px;
+   border-collapse: collapse;
+   background-color: white;
+   border: 3px solid #FF7F50;
+}
+thead{
+  background-color: #FF7F50;
+  color: white;
+}
+th{
+  width:170px;
+  text-align: left;
+}
+td{
+   border: 2px solid #FF7F50;
+}
+
+/* FOOTER */
+footer{
+  background-color: #FF7F50;
+  color:white;
+  text-align: center;
+  padding:15px;
+  text-shadow: 0 0 5px black;
+}
+#h4-footer{
+  font-size: 38px;
+  font-family: 'Fredoka One', cursive;
+}
+.footer-img{
+  width:250px;
+  height: 200px;
+  margin:25px 0 25px 60px;
+  padding: 15px;
+  background-size: cover;
+  border:3px dashed white;
+  border-radius: 25px;
+  display:inline-block;
+  font-size: 28px;
+  line-height: 200px;
+  text-decoration: underline #FF7F50;
+}
+#footer-first-img{
+  background-image: url("../img/monitor.jpg");
+}
+#footer-second-img{
+  background-image: url("../img/graph.jpg");
+}

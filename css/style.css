@@ -46,7 +46,6 @@ h1{
   font-size:.7em;
 }
 
-
 /* IMAGES SECT.*/
 figure{
   margin-left:0;
@@ -55,12 +54,13 @@ figcaption{
   font-size: 12px;
 }
 
+/* CENTRAL SECT. */
 ul{
   padding:0;
   margin:25px 17px;
 }
 
- /* TABLE */
+/* TABLE */
 table{
    margin:0;
    border-collapse: collapse;
@@ -97,4 +97,3 @@ th{
 #footer-second-img{
   background-image: url("../img/graph.jpg");
 }
-
