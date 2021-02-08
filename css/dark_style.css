@@ -1,4 +1,23 @@
 body{
-    background-color: black;
+    background-image: url("../img/matrix_screenshot.jpg");
+    background-size: 500px;
+    background-repeat: repeat;
     color:white;
+    text-align: center;
+    margin:0;
+}
+
+header{
+    background-color: black;
+}
+
+#logo{
+    width:1200px;
+}
+
+#main-container{
+    width:75%;
+    margin:auto;
+    background-color: black;
+    border: 1px solid white;
 }
