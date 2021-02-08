@@ -6,6 +6,7 @@ body{
     color:white;
     text-align: center;
     margin:0;
+    padding: 20px;
     font-family: 'Source Code Pro', monospace;
     font-size: 21px;
 }
@@ -34,12 +35,15 @@ header{
 }
 
 /*MAIN*/
+main{
+    padding: 30px;
+}
 #main-container{
     width:75%;
     margin:auto;
     background-color: black;
     border: 12px double white;
-    padding: 30px;;
+    padding-bottom: 20px;
 }
 
 /*TITLE SECT.*/
@@ -67,19 +71,24 @@ figure{
     padding-top:10px;
 }
 figcaption{
-    font-size: 16px;
+    font-size: 13px;
 }
 
 /*CENTRAL SECTION*/
 ul{
     margin: 30px 0;
-    width:600px;
+    width:800px;
     text-align: left;
     font-family: 'Righteous', cursive;
+    font-size: 28px;
+}
+p{
+    margin:40px;
 }
 
 /*TABLE*/
 table{
+    margin:50px 10px;
     font-size: 16px;
     border:2px dotted white;
 }
@@ -90,3 +99,40 @@ thead{
   th{
     width:150px;
   }
+
+  /*FOOTER*/
+  footer{
+      background-image: url("../img/matrix_world.jpg");
+      background-position: center;
+      border-top: 12px dotted white;
+  }
+  #h4-footer{
+      background-color:rgba(0,0,0,.7);
+      font-family: 'Righteous', cursive;
+      font-size: 38px;
+      color:#33cd58;
+      text-shadow: 0 0 20px white;
+  }
+  .footer-img{
+    display:inline-block;
+    width:300px;
+    height: 300px;
+    margin:30px 40px;
+    padding: 15px;
+    background-size: cover;
+    border: 6px double white;
+    border-radius: 50%;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 75px;
+    text-decoration: underline white;
+    text-shadow: 0 0 15px #84e19a;
+  }
+  #footer-first-img{
+    background-image: url("../img/monitor.jpg");
+  }
+  #footer-second-img{
+    background-image: url("../img/graph.jpg");
+  }
+  
