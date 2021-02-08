@@ -6,19 +6,23 @@ body{
     color:white;
     text-align: center;
     margin:0;
+    font-family: 'Source Code Pro', monospace;
     font-size: 21px;
 }
 
 
-/* TEXT COLORS */
+/* TEXT DEC. */
 .blue-text{
     color:#33cd58;
+}
+.highlighted{
+    color: #33cd58;
 }
 
 /*HEADER*/
 header{
     background-color: black;
-    background-image: url("https://i.pinimg.com/originals/65/01/a4/6501a4198197d883bf638a56aec40d1d.jpg");
+    background-image: url("../img/matrix_world.jpg");
     background-position: center;
     border-radius: 130px;
     border: 2px solid white;
@@ -35,13 +39,54 @@ header{
     margin:auto;
     background-color: black;
     border: 12px double white;
+    padding: 30px;;
 }
 
 /*TITLE SECT.*/
 h1{
+    font-family: 'Righteous', cursive;
     font-size: 60px;
     text-decoration: underline;
     color:white;
     text-shadow: 0 0 15px #33cd58;
-
+    margin-bottom: 20px;
 }
+#written{
+    text-align: left;
+    font-size: 14px;
+}
+#date{
+    text-align: left;
+    font-size: 14px;
+}
+
+/*IMAGES SECT.*/
+figure{
+    border:2px dotted white;
+    border-radius: 20px;
+    padding-top:10px;
+}
+figcaption{
+    font-size: 16px;
+}
+
+/*CENTRAL SECTION*/
+ul{
+    margin: 30px 0;
+    width:600px;
+    text-align: left;
+    font-family: 'Righteous', cursive;
+}
+
+/*TABLE*/
+table{
+    font-size: 16px;
+    border:2px dotted white;
+}
+thead{
+    background-color: rgba(51,205,88,.4);
+    color: white;
+  }
+  th{
+    width:150px;
+  }
