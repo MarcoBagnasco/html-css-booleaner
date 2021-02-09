@@ -95,44 +95,42 @@ table{
 thead{
     background-color: rgba(51,205,88,.4);
     color: white;
+}
+th{
+  width:150px;
+}
+/*FOOTER*/
+footer{
+    background-image: url("../img/matrix_world.jpg");
+    background-position: center;
+    border-top: 12px dotted white;
+}
+#h4-footer{
+    background-color:rgba(0,0,0,.7);
+    font-size: 38px;
+    color:#33cd58;
+    text-shadow: 0 0 20px white;
   }
-  th{
-    width:150px;
-  }
-
-  /*FOOTER*/
-  footer{
-      background-image: url("../img/matrix_world.jpg");
-      background-position: center;
-      border-top: 12px dotted white;
-  }
-  #h4-footer{
-      background-color:rgba(0,0,0,.7);
-      font-family: 'Righteous', cursive;
-      font-size: 38px;
-      color:#33cd58;
-      text-shadow: 0 0 20px white;
-  }
-  .footer-img{
-    display:inline-block;
-    width:300px;
-    height: 300px;
-    margin:30px 40px;
-    padding: 15px;
-    background-size: cover;
-    border: 6px double white;
-    border-radius: 50%;
-    color: white;
-    font-size: 32px;
-    font-weight: bold;
-    line-height: 75px;
-    text-decoration: underline white;
-    text-shadow: 0 0 15px #84e19a;
-  }
-  #footer-first-img{
-    background-image: url("../img/monitor.jpg");
-  }
-  #footer-second-img{
-    background-image: url("../img/graph.jpg");
-  }
-  
+.footer-img{
+  display:inline-block;
+  width:300px;
+  height: 300px;
+  margin:30px 40px;
+  padding: 15px;
+  background-size: cover;
+  border: 6px double white;
+  border-radius: 50%;
+  color: white;
+  font-family: 'Righteous', cursive;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 300px;
+  text-decoration: underline white;
+  text-shadow: 0 0 15px #84e19a;
+}
+#footer-first-img{
+  background-image: url("../img/monitor.jpg");
+}
+#footer-second-img{
+  background-image: url("../img/graph.jpg");
+}
